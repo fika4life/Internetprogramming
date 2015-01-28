@@ -28,6 +28,7 @@ public class ChatClient {
                             if(message==null){
                                 break;
                             }
+                            System.out.println(message);
                         } catch (IOException e) {
                             e.printStackTrace();
                             break;
